@@ -560,7 +560,8 @@ h3 {
   width: 100%;
   height: 100%;
   min-height: 320px;
-  object-fit: cover;
+  padding: 18px;
+  object-fit: contain;
   object-position: center;
   opacity: 0.9;
 }
@@ -834,7 +835,8 @@ h3 {
 
   .skills-visual img {
     min-height: 360px;
-    object-position: 64% center;
+    padding: 12px;
+    object-position: center;
   }
 
   .skills-visual div {
